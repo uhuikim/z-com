@@ -2,7 +2,10 @@ import LoginModal from '@/app/(beforeLogin)/_component/LoginModal';
 
 const Modal = () => {
   return (
-    <LoginModal />
+    <>
+      가로채기중
+      <LoginModal />
+    </>
   );
 };
 
