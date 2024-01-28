@@ -1,8 +1,9 @@
 import LoginModal from '@/app/(beforeLogin)/_component/LoginModal';
-import React from 'react';
 
-export default function Page() {
+const Modal = () => {
   return (
     <LoginModal />
-  )
-}
+  );
+};
+
+export default Modal;
