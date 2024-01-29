@@ -19,3 +19,7 @@
 - 그룹 폴더 / () : 공통적으로 레이아웃을 적용해 주고 싶을때
 - parallel route/ @ : 한화면에 2개의 페이지를 동시에 보여주고 싶을 때
 - private 폴더 / _ : 폴더 정리용 (Intercepting Routes 할때 동일한 코드가 반복이 된다. 이럴때 _component 폴더에 공통 컴포넌트로 만들어준다.)
+
+## useSelectedLayoutSegment / useSelectedLayoutSegments
+- useSelectedLayoutSegment : 최상위 폴더 경로만 알려준다. 
+- useSelectedLayoutSegments : 하위 폴더 경로까지 다 알려준다.
