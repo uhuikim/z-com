@@ -54,7 +54,6 @@ export default function AfterLoginLayout({ children }: { children: ReactNode }) 
           </section>
         </div>
       </div>
-
     </div>
   )
 }
