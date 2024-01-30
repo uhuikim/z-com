@@ -2,6 +2,7 @@ import style from './home.module.css'
 import Tab from './_component/Tab'
 import PostForm from './_component/PostForm'
 import TabProvider from './_component/TabProvider';
+import Post from '../../(afterLogin)/_component/Post'
 
 export default function Page() {
   return (
@@ -9,7 +10,6 @@ export default function Page() {
       <main className={style.main}>
         <Tab />
         <PostForm />
-        {/* <Post />
         <Post />
         <Post />
         <Post />
@@ -18,7 +18,8 @@ export default function Page() {
         <Post />
         <Post />
         <Post />
-        <Post /> */}
+        <Post />
+        <Post />
       </main>
     </TabProvider>
   );
