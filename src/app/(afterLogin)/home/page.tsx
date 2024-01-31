@@ -4,7 +4,7 @@ import PostForm from './_component/PostForm'
 import TabProvider from './_component/TabProvider';
 import Post from '../../(afterLogin)/_component/Post'
 
-export default function Page() {
+const Page = () => {
   return (
     <TabProvider>
       <main className={style.main}>
@@ -24,3 +24,5 @@ export default function Page() {
     </TabProvider>
   );
 }
+
+export default Page

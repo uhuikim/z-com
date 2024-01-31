@@ -1,6 +1,7 @@
+import Home from "@/app/(beforeLogin)/page";
 
 export default function Page() {
   return (
-    <div>compose</div>
+    <Home />
   );
 }
